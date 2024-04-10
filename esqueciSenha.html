@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+    <title>Recuperacao Senha</title>
+    
+  </head>
+  <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+
+      form {
+        display: inline-block;
+        text-align: left;
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 5px;
+      }
+
+      label,
+      input {
+        display: block;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Recuperação de Senha</h2>
+    <form action="/" method="post">
+      <div>
+        <label>Digite seu CPF </label>
+        <input type="number" id="cpfUser" name="cpf" required>
+      </div>
+      <div>
+        <label>Digite sua agência:</label>
+        <input type="number" id="agenciaUser" name="agencia" required>
+      </div>
+      <div>
+        <label>Digite sua Conta:</label>
+        <input type="number" id="contaUser" name="conta" required>
+      </div>
+      <div>
+        <label>Digite seu e-mail:</label>
+        <input type="e-mail" id="EmailUser" name="e-mail" required>
+      </div>
+     
+      <div>
+        <a href="PaginaDeLogin.html">Voltar para pagina de login</a>
+      </div>
+     
+      <div>
+        
+        <button type="submit" id="btnEnviar">Enviar</button>
+      </div>
+         
+    </form>
+     <h5>Será enviado uma senha provisoria em seu e-mail</h5>
+  </body>
+
+</html>
